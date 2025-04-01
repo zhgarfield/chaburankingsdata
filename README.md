@@ -51,6 +51,5 @@ These metadata can be merged into the long-format ranking data for multilevel or
 ## Installation
 
 ```r
-# Install from GitHub (if hosted)
-# remotes::install_github("zhgarfield/chaburankingsdata")
-
+remotes::install_github("zhgarfield/chaburankingsdata")
+```
