@@ -1,3 +1,12 @@
 ## code to prepare `chaburankingsdata` dataset goes here
 
-usethis::use_data(chaburankingsdata, overwrite = TRUE)
+# Read data ---------------------------------------------------------------
+library(readr)
+chaburankingsdata <- read_csv("data-raw/raw_rankings.csv")
+
+chaburankingsmetadata <- read_csv("data-raw/chabuleadershipdata2016.csv")
+
+
+# End ---------------------------------------------------------------------
+
+usethis::use_data(chaburankingsdata, chaburankingsmetadata, overwrite = TRUE)

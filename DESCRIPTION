@@ -1,12 +1,23 @@
 Package: chaburankingsdata
-Title: What the Package Does (One Line, Title Case)
+Title: Peer-ranked Data on Psycho-Social Traits From a Chabu Community
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Authors@R: c(
+    person("Zachary H.", "Garfield", , "zachary.garfield@um6p.ma", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-1547-1492")),
+    person("Edward H.", "Hagen", , "edhagen@wsu.edu", role = c("aut"),
+           comment = c(ORCID = "0000-0002-5758-9093"))
+           )
+Description: This package provides peer-ranking data on 17 psycho-social, economic, 
+    or other individual-level traits on a sample of 60 adults from a Chabu community. 
+    The Chabu are forager-horticulturalists residing in remote forest villages in Southwest Ethiopia. 
+    These data were collected in 2016 by ZHG and initially reported in The Leadership Quarterly, 
+    Garfield & Hagen (2020).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+URL: https://www.sciencedirect.com/science/article/pii/S1048984318303746?via%3Dihub
+Depends: 
+    R (>= 2.10)
+LazyData: true
