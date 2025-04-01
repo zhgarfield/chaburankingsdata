@@ -1,4 +1,4 @@
-# chaburankinsdata 📦
+# chaburankingsdata 📦
 
 Peer-Ranked Traits and Conflict Resolution in a Small-Scale Society  
 Collected as part of the Chabu Leadership Study (2016)
