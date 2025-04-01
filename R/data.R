@@ -1,4 +1,5 @@
-#' @description DATASET_DESCRIPTION
+#' @title chaburankingsdata
+#' @description Raw rankings
 #' @format A data frame with 34 rows and 166 variables:
 #' \describe{
 #'   \item{\code{...1}}{double COLUMN_DESCRIPTION}
@@ -171,8 +172,8 @@
 #' @source \url{http://somewhere.important.com/}
 "chaburankingsdata"
 
-#' @title DATASET_TITLE
-#' @description DATASET_DESCRIPTION
+#' @title chaburankingsmetadata
+#' @description Participant metadata
 #' @format A data frame with 60 rows and 9 variables:
 #' \describe{
 #'   \item{\code{date}}{double COLUMN_DESCRIPTION}
