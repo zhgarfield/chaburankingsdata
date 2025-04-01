@@ -185,5 +185,5 @@
 #'   \item{\code{grip_RH}}{double COLUMN_DESCRIPTION}
 #'   \item{\code{grip_LH}}{double COLUMN_DESCRIPTION}
 #'}
-#' @source \url{http://somewhere.important.com/}
+#' @source \url{http://url.com/}
 "chaburankingsmetadata"
