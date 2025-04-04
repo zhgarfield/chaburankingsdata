@@ -2,11 +2,12 @@
 
 # Read data ---------------------------------------------------------------
 library(readr)
-library(dplyr)
-chaburankingsdata <- read_csv("data-raw/raw_rankings.csv") %>%
-  dplyr::select(-1)
+
+chaburankingsdata <- read_csv("data-raw/rankings_ties_long.csv")
 
 chaburankingsmetadata <- read_csv("data-raw/chabuleadershipdata2016.csv")
+
+
 
 
 # End ---------------------------------------------------------------------
